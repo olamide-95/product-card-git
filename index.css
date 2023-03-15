@@ -80,9 +80,17 @@ button {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-align: center;
+    cursor: pointer;
 }
 
 .button {
     text-align: center;
-    
+}
+
+button:hover {
+    background-color: #306E43;
+}
+
+a:link {
+   text-decoration: none;
 }
